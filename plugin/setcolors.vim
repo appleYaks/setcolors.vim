@@ -16,7 +16,7 @@ if v:version < 700 || exists('loaded_setcolors') || &cp
 endif
 
 let loaded_setcolors = 1
-let s:mycolors = ['256-jungle', 'Monokai', 'blazer', 'bvemu', 'candyman', 'd8g_03', 'darkburn', 'desertEx', 'distinguished', 'fu', 'getafe', 'gentooish', 'gruvbox ', 'herald', 'hornet', 'hybrid', 'inkpot', 'jellybeans', 'kellys', 'kkruby', 'molokai', 'mud', 'mustang', 'nature', 'nazca', 'northsky', 'obsidian', 'oceanblack256', 'railscasts', 'skittles_dark', 'solarized ', 'symfony', 'tchaba', 'tir_black', 'wombat256mod', 'xoria256'] " colorscheme names that we use to set color
+let s:mycolors = ['256-jungle', 'Monokai', 'blazer', 'bvemu', 'candyman', 'd8g_03', 'darkburn', 'desertEx', 'distinguished', 'fu', 'getafe', 'gruvbox', 'herald', 'hornet', 'hybrid', 'inkpot', 'jellybeans', 'kellys', 'kkruby', 'molokai', 'mud', 'mustang', 'nature', 'nazca', 'northsky', 'obsidian', 'oceanblack256', 'railscasts', 'skittles_dark', 'symfony', 'tchaba', 'tir_black', 'wombat256mod', 'xoria256'] " colorscheme names that we use to set color
 
 " Set list of color scheme names that we will use, except
 " argument 'now' actually changes the current color scheme.
