@@ -94,9 +94,10 @@ function! s:NextColor(how, echo_color)
   endif
 endfunction
 
-nnoremap <F8> :call NextColor(1)<CR>
-nnoremap <S-F8> :call NextColor(-1)<CR>
-nnoremap <A-F8> :call NextColor(0)<CR>
+" set these in vimrc
+" nnoremap <F8> :call NextColor(1)<CR>
+" nnoremap <S-F8> :call NextColor(-1)<CR>
+" nnoremap <A-F8> :call NextColor(0)<CR>
 
 " Set color scheme according to current time of day.
 function! s:HourColor()
