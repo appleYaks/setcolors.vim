@@ -89,7 +89,7 @@ function! s:NextColor(how, echo_color)
   if len(missing) > 0
     echo 'Error: colorscheme not found:' join(missing)
   endif
-  if (a:echo_color)
+  if (a:echo_color) && exists('g:colors_name')
     echo g:colors_name
   endif
 endfunction
